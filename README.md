@@ -60,6 +60,7 @@ The API will be available at `http://127.0.0.1:8000`.
 - The current implementation is a basic version and does not include authentication or authorization for API access.
 - Log querying is performed via simple string matching, which may not be efficient for large datasets.
 - The system is dependent on AWS S3 and Redis, limiting its flexibility in terms of storage options.
+- A lot of cleanup. Including but not limited to seperate routers, services and more modularity/loose coupling.
 
 ## Future Improvements
 
